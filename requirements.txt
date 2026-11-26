@@ -1,0 +1,5 @@
+# LinkedIn Page Analytics Extractor — runtime dependencies
+playwright>=1.49,<2.0
+PyYAML>=6.0
+python-dotenv>=1.0
+cryptography>=42.0

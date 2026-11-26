@@ -1,0 +1,1107 @@
+{
+  "run": {
+    "tool_version": "offline-fixture-test",
+    "run_id": "offline-fixture-run",
+    "company_url": "LOCAL FIXTURE (tests/fixture_analytics.html)",
+    "company_id": "fixture",
+    "headless": true,
+    "started_at": "2026-11-25T11:55:16+00:00",
+    "finished_at": "2026-11-25T11:55:16+00:00",
+    "session_state": "n/a (local fixture, no LinkedIn access)",
+    "browser_engine": "firefox (playwright)",
+    "WARNING": "All values below come from local test fixtures, NOT from LinkedIn."
+  },
+  "summary": {
+    "requested_metrics": 38,
+    "extracted": 32,
+    "partially_extracted": 0,
+    "not_accessible": 6,
+    "additional_metrics_discovered": 1,
+    "additional_breakdown_rows": 34,
+    "by_limitation": {
+      "data_unavailable": 2,
+      "linkedin_ui": 4
+    },
+    "by_category": {
+      "Overview": {
+        "extracted": 4,
+        "partial": 0,
+        "not_accessible": 0
+      },
+      "Content": {
+        "extracted": 3,
+        "partial": 0,
+        "not_accessible": 1
+      },
+      "Visitors": {
+        "extracted": 3,
+        "partial": 0,
+        "not_accessible": 0
+      },
+      "Visitors > Demographics": {
+        "extracted": 1,
+        "partial": 0,
+        "not_accessible": 4
+      },
+      "Life Page": {
+        "extracted": 3,
+        "partial": 0,
+        "not_accessible": 0
+      },
+      "Followers": {
+        "extracted": 2,
+        "partial": 0,
+        "not_accessible": 0
+      },
+      "Search Appearance": {
+        "extracted": 2,
+        "partial": 0,
+        "not_accessible": 1
+      },
+      "Individual Post Analytics": {
+        "extracted": 11,
+        "partial": 0,
+        "not_accessible": 0
+      },
+      "Video Posts": {
+        "extracted": 3,
+        "partial": 0,
+        "not_accessible": 0
+      }
+    }
+  },
+  "date_range_applied": "01/01/2026 - 11/25/2026",
+  "date_window_requested": "2026-01-01 .. 2026-11-25",
+  "date_range_verified": true,
+  "date_range_verification": "LinkedIn displays 2026-01-01 .. 2026-11-25, matching the requested 2026-01-01 .. 2026-11-25 (within 2 day(s)).",
+  "sections": {
+    "overview": {
+      "section": "overview",
+      "title": "Page Analytics > Overview",
+      "url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "outcome": "ok",
+      "reason": "",
+      "empty_states": [
+        "No data available for the selected date range"
+      ],
+      "metric_counts": {
+        "extracted": 4,
+        "partial": 0,
+        "not_accessible": 0
+      }
+    },
+    "content": {
+      "section": "content",
+      "title": "Page Analytics > Content",
+      "url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "outcome": "ok",
+      "reason": "",
+      "empty_states": [
+        "No data available for the selected date range"
+      ],
+      "metric_counts": {
+        "extracted": 3,
+        "partial": 0,
+        "not_accessible": 1
+      }
+    },
+    "visitors": {
+      "section": "visitors",
+      "title": "Page Analytics > Visitors",
+      "url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "outcome": "ok",
+      "reason": "",
+      "empty_states": [
+        "No data available for the selected date range"
+      ],
+      "metric_counts": {
+        "extracted": 7,
+        "partial": 0,
+        "not_accessible": 4
+      }
+    },
+    "life_page": {
+      "section": "life_page",
+      "title": "Page Analytics > Visitors > Page views by page",
+      "url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "outcome": "ok",
+      "reason": "",
+      "empty_states": [],
+      "metric_counts": {
+        "extracted": 3,
+        "partial": 0,
+        "not_accessible": 0
+      }
+    },
+    "followers": {
+      "section": "followers",
+      "title": "Page Analytics > Followers",
+      "url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "outcome": "ok",
+      "reason": "",
+      "empty_states": [
+        "No data available for the selected date range"
+      ],
+      "metric_counts": {
+        "extracted": 2,
+        "partial": 0,
+        "not_accessible": 0
+      }
+    },
+    "search_appearances": {
+      "section": "search_appearances",
+      "title": "Page Analytics > Search appearances",
+      "url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "outcome": "ok",
+      "reason": "",
+      "empty_states": [
+        "No data available for the selected date range"
+      ],
+      "metric_counts": {
+        "extracted": 6,
+        "partial": 0,
+        "not_accessible": 1
+      }
+    },
+    "posts": {
+      "section": "posts",
+      "title": "Page Analytics > Content > Post analytics",
+      "url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "outcome": "ok",
+      "reason": "",
+      "empty_states": [],
+      "metric_counts": {
+        "extracted": 42,
+        "partial": 0,
+        "not_accessible": 0
+      }
+    }
+  },
+  "notes": [
+    "[overview] date-window check: LinkedIn displays 2026-01-01 .. 2026-11-25, matching the requested 2026-01-01 .. 2026-11-25 (within 2 day(s)).",
+    "[content] post performance table captured: 2 row(s), 2 with a resolvable post URN",
+    "[life_page] reusing tables captured on the Visitors tab",
+    "[posts] date window 2026-01-01 .. 2026-11-25: 2 post(s) inside, 0 excluded, 0 with an unparseable date (kept)",
+    "[posts] opening individual analytics for 2 of 2 in-scope post(s) (2 listed, extraction.max_posts=2)",
+    "[posts] NOTE: LinkedIn reports post-level metrics cumulatively since each post was published and does not filter them by date range; the window only selects WHICH posts are opened. Each metric's date_range records what the post page displayed."
+  ],
+  "successfully_extracted": [
+    {
+      "metric": "Search Appearances",
+      "category": "Overview",
+      "value": 1200,
+      "raw_value": "1.2K",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Overview",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Search appearances 1.2K",
+      "strategy": "label-anchor:Search appearances@depth2"
+    },
+    {
+      "metric": "New Followers",
+      "category": "Overview",
+      "value": 214,
+      "raw_value": "214",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Overview",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "New followers 214\u25b2 8%",
+      "strategy": "label-anchor:New followers@depth2"
+    },
+    {
+      "metric": "Post Impressions",
+      "category": "Overview",
+      "value": 45901,
+      "raw_value": "45,901",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Overview",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Post impressions 45,901",
+      "strategy": "label-anchor:Post impressions@depth2"
+    },
+    {
+      "metric": "Page Visitors",
+      "category": "Overview",
+      "value": 2045,
+      "raw_value": "2,045",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Overview",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Unique visitors 2,045-3.1%",
+      "strategy": "label-anchor:Unique visitors@depth2"
+    },
+    {
+      "metric": "Reactions",
+      "category": "Content",
+      "value": 1004,
+      "raw_value": "1,004",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Content",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Reactions1,004",
+      "strategy": "label-anchor:Reactions@depth2"
+    },
+    {
+      "metric": "Comments",
+      "category": "Content",
+      "value": 87,
+      "raw_value": "87",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Content",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Comments87",
+      "strategy": "label-anchor:Comments@depth2"
+    },
+    {
+      "metric": "Reposts",
+      "category": "Content",
+      "value": 22,
+      "raw_value": "22",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Content",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Reposts22",
+      "strategy": "label-anchor:Reposts@depth2"
+    },
+    {
+      "metric": "Page Views",
+      "category": "Visitors",
+      "value": 7129,
+      "raw_value": "7,129",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Page views 7,129\u25b2 15.3% past 28 days",
+      "strategy": "label-anchor:Page views@depth2"
+    },
+    {
+      "metric": "Unique Visitors",
+      "category": "Visitors",
+      "value": 2045,
+      "raw_value": "2,045",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Unique visitors 2,045-3.1%",
+      "strategy": "label-anchor:Unique visitors@depth2"
+    },
+    {
+      "metric": "Custom Button Clicks",
+      "category": "Visitors",
+      "value": 38,
+      "raw_value": "38",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Custom button clicks 38\u25b2 2.0%",
+      "strategy": "label-anchor:Custom button clicks@depth2"
+    },
+    {
+      "metric": "Job Function",
+      "category": "Visitors > Demographics",
+      "value": 3,
+      "raw_value": "3 buckets",
+      "unit": "buckets",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Visitor demographics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Engineering=34%; Sales=21%; Information Technology=12%",
+      "strategy": "demographics-dropdown:Job function"
+    },
+    {
+      "metric": "Page Views",
+      "category": "Life Page",
+      "value": 1220,
+      "raw_value": "1,220",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Page views by page",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Life page | 1,220 | 480 | Nov 12, 2026",
+      "strategy": "visitors-table:life-row"
+    },
+    {
+      "metric": "Unique Visitors",
+      "category": "Life Page",
+      "value": 480,
+      "raw_value": "480",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Page views by page",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Life page | 1,220 | 480 | Nov 12, 2026",
+      "strategy": "visitors-table:life-row"
+    },
+    {
+      "metric": "Last Updated",
+      "category": "Life Page",
+      "value": "Nov 12, 2026",
+      "raw_value": "Nov 12, 2026",
+      "unit": "date",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Page views by page",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Life page | 1,220 | 480 | Nov 12, 2026",
+      "strategy": "visitors-table:life-row"
+    },
+    {
+      "metric": "Total Followers",
+      "category": "Followers",
+      "value": 13204,
+      "raw_value": "13,204",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Followers",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Total followers 13,204",
+      "strategy": "label-anchor:Total followers@depth2"
+    },
+    {
+      "metric": "New Followers",
+      "category": "Followers",
+      "value": 214,
+      "raw_value": "214",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Followers",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "New followers 214\u25b2 8%",
+      "strategy": "label-anchor:New followers@depth2"
+    },
+    {
+      "metric": "Page Searches",
+      "category": "Search Appearance",
+      "value": 1200,
+      "raw_value": "1.2K",
+      "unit": "count",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Search appearances",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Search appearances 1.2K",
+      "strategy": "label-anchor:Search appearances@depth2"
+    },
+    {
+      "metric": "Top Page Searcher Demographics",
+      "category": "Search Appearance",
+      "value": 3,
+      "raw_value": "3 rows across 1 dimension(s)",
+      "unit": "buckets",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Search appearances",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Job function: Engineering=34%",
+      "strategy": "search-appearances:searcher-breakdowns"
+    },
+    {
+      "metric": "Impressions",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=8330; 7100000000000000002=8330",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Members Reached",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=6112; 7100000000000000002=6112",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Page Viewers from This Post",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=142; 7100000000000000002=142",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Followers Gained from This Post",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=17; 7100000000000000002=17",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Engagement",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=296; 7100000000000000002=296",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Engagement Rate",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=3.55; 7100000000000000002=3.55",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Clicks",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=211; 7100000000000000002=211",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Click Through Rate",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=2.53; 7100000000000000002=2.53",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Reactions",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=260; 7100000000000000002=260",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Comments",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=18; 7100000000000000002=18",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Reposts",
+      "category": "Individual Post Analytics",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=6; 7100000000000000002=6",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Video Views",
+      "category": "Video Posts",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics (video)",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=4208; 7100000000000000002=4208",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Watch Time",
+      "category": "Video Posts",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics (video)",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=1h 23m; 7100000000000000002=1h 23m",
+      "strategy": "per-post rollup"
+    },
+    {
+      "metric": "Average Watch Time",
+      "category": "Video Posts",
+      "value": 2,
+      "raw_value": "2 post(s)",
+      "unit": "posts",
+      "date_range": "per post (see detail.per_post)",
+      "source_section": "Page Analytics > Content > Post analytics (video)",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "7100000000000000001=0:21; 7100000000000000002=0:21",
+      "strategy": "per-post rollup"
+    }
+  ],
+  "partially_extracted": [],
+  "not_accessible": [
+    {
+      "metric": "Impressions",
+      "category": "Content",
+      "value": null,
+      "raw_value": null,
+      "unit": "",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Content",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "No data available for the selected date range",
+      "strategy": "",
+      "status": "not_accessible",
+      "reason": "LinkedIn shows an empty state on this section ('No data available for the selected date range'), so no value is rendered for label(s) ['Impressions', 'Total impressions'].",
+      "limitation_type": "data_unavailable",
+      "limitation_explained": "Data unavailable: the section loaded but LinkedIn itself reports no data for the selected date range / post type."
+    },
+    {
+      "metric": "Company Size",
+      "category": "Visitors > Demographics",
+      "value": null,
+      "raw_value": null,
+      "unit": "",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Visitor demographics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "",
+      "strategy": "",
+      "status": "not_accessible",
+      "reason": "The visitor-demographics selector did not offer 'Company size' (tried: ['Company size', 'Company sizes']).",
+      "limitation_type": "linkedin_ui",
+      "limitation_explained": "LinkedIn UI limitation: the metric is not rendered in the accessible admin interface (or LinkedIn changed/removed that element)."
+    },
+    {
+      "metric": "Industry",
+      "category": "Visitors > Demographics",
+      "value": null,
+      "raw_value": null,
+      "unit": "",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Visitor demographics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "",
+      "strategy": "",
+      "status": "not_accessible",
+      "reason": "The visitor-demographics selector did not offer 'Industry' (tried: ['Industry', 'Industries']).",
+      "limitation_type": "linkedin_ui",
+      "limitation_explained": "LinkedIn UI limitation: the metric is not rendered in the accessible admin interface (or LinkedIn changed/removed that element)."
+    },
+    {
+      "metric": "Location",
+      "category": "Visitors > Demographics",
+      "value": null,
+      "raw_value": null,
+      "unit": "",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Visitor demographics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "",
+      "strategy": "",
+      "status": "not_accessible",
+      "reason": "The visitor-demographics selector did not offer 'Location' (tried: ['Location', 'Locations']).",
+      "limitation_type": "linkedin_ui",
+      "limitation_explained": "LinkedIn UI limitation: the metric is not rendered in the accessible admin interface (or LinkedIn changed/removed that element)."
+    },
+    {
+      "metric": "Seniority",
+      "category": "Visitors > Demographics",
+      "value": null,
+      "raw_value": null,
+      "unit": "",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Visitor demographics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "",
+      "strategy": "",
+      "status": "not_accessible",
+      "reason": "The visitor-demographics selector did not offer 'Seniority' (tried: ['Seniority', 'Seniority level']).",
+      "limitation_type": "linkedin_ui",
+      "limitation_explained": "LinkedIn UI limitation: the metric is not rendered in the accessible admin interface (or LinkedIn changed/removed that element)."
+    },
+    {
+      "metric": "Top Keywords",
+      "category": "Search Appearance",
+      "value": null,
+      "raw_value": null,
+      "unit": "",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Search appearances",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "",
+      "strategy": "",
+      "status": "not_accessible",
+      "reason": "No keyword list rendered; LinkedIn empty state: 'No data available for the selected date range'.",
+      "limitation_type": "data_unavailable",
+      "limitation_explained": "Data unavailable: the section loaded but LinkedIn itself reports no data for the selected date range / post type."
+    }
+  ],
+  "additional_metrics_discovered": [
+    {
+      "metric": "Job function",
+      "category": "Search Appearance > Searcher Job function",
+      "value": 3,
+      "raw_value": "3 buckets",
+      "unit": "buckets",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Search appearances",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Engineering=34%; Sales=21%; Information Technology=12%",
+      "strategy": "search-appearances:searcher-breakdowns"
+    }
+  ],
+  "breakdown_rows_extracted": [
+    {
+      "metric": "Job Function",
+      "category": "Visitors > Demographics",
+      "value": 34.0,
+      "raw_value": "34%",
+      "unit": "percent",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Visitor demographics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Engineering 34%",
+      "strategy": "demographics-dropdown:Job function"
+    },
+    {
+      "metric": "Job Function",
+      "category": "Visitors > Demographics",
+      "value": 21.0,
+      "raw_value": "21%",
+      "unit": "percent",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Visitor demographics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Sales 21%",
+      "strategy": "demographics-dropdown:Job function"
+    },
+    {
+      "metric": "Job Function",
+      "category": "Visitors > Demographics",
+      "value": 12.0,
+      "raw_value": "12%",
+      "unit": "percent",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Visitors > Visitor demographics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Information Technology 12%",
+      "strategy": "demographics-dropdown:Job function"
+    },
+    {
+      "metric": "Job function",
+      "category": "Search Appearance > Searcher Job function",
+      "value": 34.0,
+      "raw_value": "34%",
+      "unit": "percent",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Search appearances",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Engineering 34%",
+      "strategy": "search-appearances:searcher-breakdowns"
+    },
+    {
+      "metric": "Job function",
+      "category": "Search Appearance > Searcher Job function",
+      "value": 21.0,
+      "raw_value": "21%",
+      "unit": "percent",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Search appearances",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Sales 21%",
+      "strategy": "search-appearances:searcher-breakdowns"
+    },
+    {
+      "metric": "Job function",
+      "category": "Search Appearance > Searcher Job function",
+      "value": 12.0,
+      "raw_value": "12%",
+      "unit": "percent",
+      "date_range": "01/01/2026 - 11/25/2026",
+      "source_section": "Page Analytics > Search appearances",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_analytics.html",
+      "evidence": "Information Technology 12%",
+      "strategy": "search-appearances:searcher-breakdowns"
+    },
+    {
+      "metric": "Impressions",
+      "category": "Individual Post Analytics",
+      "value": 8330,
+      "raw_value": "8,330",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Impressions8,330\u25b2 12%",
+      "strategy": "label-anchor:Impressions@depth1"
+    },
+    {
+      "metric": "Members Reached",
+      "category": "Individual Post Analytics",
+      "value": 6112,
+      "raw_value": "6,112",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Members reached6,112",
+      "strategy": "label-anchor:Members reached@depth1"
+    },
+    {
+      "metric": "Page Viewers from This Post",
+      "category": "Individual Post Analytics",
+      "value": 142,
+      "raw_value": "142",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Page viewers from this post142",
+      "strategy": "label-anchor:Page viewers from this post@depth1"
+    },
+    {
+      "metric": "Followers Gained from This Post",
+      "category": "Individual Post Analytics",
+      "value": 17,
+      "raw_value": "17",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Followers gained from this post17",
+      "strategy": "label-anchor:Followers gained from this post@depth1"
+    },
+    {
+      "metric": "Engagement",
+      "category": "Individual Post Analytics",
+      "value": 296,
+      "raw_value": "296",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Engagements296",
+      "strategy": "label-anchor:Engagements@depth1"
+    },
+    {
+      "metric": "Engagement Rate",
+      "category": "Individual Post Analytics",
+      "value": 3.55,
+      "raw_value": "3.55%",
+      "unit": "percent",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Engagement rate3.55%",
+      "strategy": "label-anchor:Engagement rate@depth1"
+    },
+    {
+      "metric": "Clicks",
+      "category": "Individual Post Analytics",
+      "value": 211,
+      "raw_value": "211",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Clicks211",
+      "strategy": "label-anchor:Clicks@depth1"
+    },
+    {
+      "metric": "Click Through Rate",
+      "category": "Individual Post Analytics",
+      "value": 2.53,
+      "raw_value": "2.53%",
+      "unit": "percent",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Click through rate2.53%",
+      "strategy": "label-anchor:Click through rate@depth1"
+    },
+    {
+      "metric": "Reactions",
+      "category": "Individual Post Analytics",
+      "value": 260,
+      "raw_value": "260",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Reactions260",
+      "strategy": "label-anchor:Reactions@depth1"
+    },
+    {
+      "metric": "Comments",
+      "category": "Individual Post Analytics",
+      "value": 18,
+      "raw_value": "18",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Comments18",
+      "strategy": "label-anchor:Comments@depth1"
+    },
+    {
+      "metric": "Reposts",
+      "category": "Individual Post Analytics",
+      "value": 6,
+      "raw_value": "6",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Reposts6",
+      "strategy": "label-anchor:Reposts@depth1"
+    },
+    {
+      "metric": "Video Views",
+      "category": "Video Posts",
+      "value": 4208,
+      "raw_value": "4,208",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Video views4,208",
+      "strategy": "label-anchor:Video views@depth1"
+    },
+    {
+      "metric": "Watch Time",
+      "category": "Video Posts",
+      "value": "1h 23m",
+      "raw_value": "1h 23m",
+      "unit": "text",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Watch time1h 23m",
+      "strategy": "label-anchor-text:Watch time@depth1"
+    },
+    {
+      "metric": "Average Watch Time",
+      "category": "Video Posts",
+      "value": "0:21",
+      "raw_value": "0:21",
+      "unit": "text",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Average watch time0:21",
+      "strategy": "label-anchor-text:Average watch time@depth1"
+    },
+    {
+      "metric": "Impressions",
+      "category": "Individual Post Analytics",
+      "value": 8330,
+      "raw_value": "8,330",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Impressions8,330\u25b2 12%",
+      "strategy": "label-anchor:Impressions@depth1"
+    },
+    {
+      "metric": "Members Reached",
+      "category": "Individual Post Analytics",
+      "value": 6112,
+      "raw_value": "6,112",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Members reached6,112",
+      "strategy": "label-anchor:Members reached@depth1"
+    },
+    {
+      "metric": "Page Viewers from This Post",
+      "category": "Individual Post Analytics",
+      "value": 142,
+      "raw_value": "142",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Page viewers from this post142",
+      "strategy": "label-anchor:Page viewers from this post@depth1"
+    },
+    {
+      "metric": "Followers Gained from This Post",
+      "category": "Individual Post Analytics",
+      "value": 17,
+      "raw_value": "17",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Followers gained from this post17",
+      "strategy": "label-anchor:Followers gained from this post@depth1"
+    },
+    {
+      "metric": "Engagement",
+      "category": "Individual Post Analytics",
+      "value": 296,
+      "raw_value": "296",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Engagements296",
+      "strategy": "label-anchor:Engagements@depth1"
+    },
+    {
+      "metric": "Engagement Rate",
+      "category": "Individual Post Analytics",
+      "value": 3.55,
+      "raw_value": "3.55%",
+      "unit": "percent",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Engagement rate3.55%",
+      "strategy": "label-anchor:Engagement rate@depth1"
+    },
+    {
+      "metric": "Clicks",
+      "category": "Individual Post Analytics",
+      "value": 211,
+      "raw_value": "211",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Clicks211",
+      "strategy": "label-anchor:Clicks@depth1"
+    },
+    {
+      "metric": "Click Through Rate",
+      "category": "Individual Post Analytics",
+      "value": 2.53,
+      "raw_value": "2.53%",
+      "unit": "percent",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Click through rate2.53%",
+      "strategy": "label-anchor:Click through rate@depth1"
+    },
+    {
+      "metric": "Reactions",
+      "category": "Individual Post Analytics",
+      "value": 260,
+      "raw_value": "260",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Reactions260",
+      "strategy": "label-anchor:Reactions@depth1"
+    },
+    {
+      "metric": "Comments",
+      "category": "Individual Post Analytics",
+      "value": 18,
+      "raw_value": "18",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Comments18",
+      "strategy": "label-anchor:Comments@depth1"
+    },
+    {
+      "metric": "Reposts",
+      "category": "Individual Post Analytics",
+      "value": 6,
+      "raw_value": "6",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Reposts6",
+      "strategy": "label-anchor:Reposts@depth1"
+    },
+    {
+      "metric": "Video Views",
+      "category": "Video Posts",
+      "value": 4208,
+      "raw_value": "4,208",
+      "unit": "count",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Video views4,208",
+      "strategy": "label-anchor:Video views@depth1"
+    },
+    {
+      "metric": "Watch Time",
+      "category": "Video Posts",
+      "value": "1h 23m",
+      "raw_value": "1h 23m",
+      "unit": "text",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Watch time1h 23m",
+      "strategy": "label-anchor-text:Watch time@depth1"
+    },
+    {
+      "metric": "Average Watch Time",
+      "category": "Video Posts",
+      "value": "0:21",
+      "raw_value": "0:21",
+      "unit": "text",
+      "date_range": "Nov 14, 2026 - Nov 24, 2026",
+      "source_section": "Page Analytics > Content > Post analytics",
+      "source_url": "file:///Users/macbookpro/Documents/LinkedIn%20Analytics%20scrape/tests/fixture_post.html",
+      "evidence": "Average watch time0:21",
+      "strategy": "label-anchor-text:Average watch time@depth1"
+    }
+  ],
+  "breakdown_rows_unavailable": [],
+  "limitation_legend": {
+    "none": "No limitation \u2014 value captured from the live page.",
+    "linkedin_ui": "LinkedIn UI limitation: the metric is not rendered in the accessible admin interface (or LinkedIn changed/removed that element).",
+    "permissions": "Permissions limitation: the signed-in account's role on this Page does not grant access to that section.",
+    "data_unavailable": "Data unavailable: the section loaded but LinkedIn itself reports no data for the selected date range / post type.",
+    "automation_failure": "Automation failure: navigation or parsing in this script failed \u2014 re-runnable.",
+    "session_expired": "Session limitation: the authenticated LinkedIn session expired or was challenged mid-run; re-authenticate with login.py and re-run.",
+    "not_attempted": "Not attempted: the section was disabled or never reached in this run."
+  }
+}

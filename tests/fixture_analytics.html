@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Fixture — Page analytics</title>
+<style>body{font-family:sans-serif} .card{width:260px;display:inline-block;padding:8px}
+.delta{color:green}</style></head>
+<body>
+<h1>Analytics</h1>
+<button class="date-btn" aria-label="Date range">Past 28 days: 10/28/2026 - 11/24/2026</button>
+<div id="picker">
+  <button>Custom range</button>
+  <label for="s">Start date</label><input id="s" aria-label="Start date" type="text">
+  <label for="e">End date</label><input id="e" aria-label="End date" type="text">
+  <button onclick="document.querySelector('.date-btn').textContent =
+      document.getElementById('s').value + ' - ' + document.getElementById('e').value">Apply</button>
+</div>
+
+<section class="highlights">
+  <div class="card"><div class="lbl"><span>Page views</span></div>
+    <p class="val">7,129</p><span class="delta">▲ 15.3%</span>
+    <span class="cmp">past 28 days</span></div>
+  <div class="card"><div class="lbl"><span>Unique visitors</span></div>
+    <p class="val">2,045</p><span class="delta">-3.1%</span></div>
+  <div class="card"><div class="lbl"><span>Custom button clicks</span></div>
+    <p class="val">38</p><span class="delta">▲ 2.0%</span></div>
+  <div class="card"><div class="lbl"><span>Search appearances</span></div>
+    <p class="val">1.2K</p></div>
+  <div class="card"><div class="lbl"><span>New followers</span></div>
+    <p class="val">214</p><span class="delta">▲ 8%</span></div>
+  <div class="card"><div class="lbl"><span>Post impressions</span></div>
+    <p class="val">45,901</p></div>
+  <div class="card"><div class="lbl"><span>Total followers</span></div>
+    <p class="val">13,204</p></div>
+  <div class="card"><div class="lbl"><span>Reactions</span></div><p class="val">1,004</p></div>
+  <div class="card"><div class="lbl"><span>Comments</span></div><p class="val">87</p></div>
+  <div class="card"><div class="lbl"><span>Reposts</span></div><p class="val">22</p></div>
+</section>
+
+<nav>
+  <a href="/company/99269371/admin/analytics/updates/">Content</a>
+  <a href="/company/99269371/admin/analytics/visitors/">Visitors</a>
+  <a href="/company/99269371/admin/analytics/followers/">Followers</a>
+  <a href="/company/99269371/admin/analytics/search-appearances/">Search appearances</a>
+</nav>
+
+<section id="demographics">
+  <h2>Visitor demographics</h2>
+  <button>Job function</button>
+  <ul>
+    <li><span>Engineering</span><span>34%</span></li>
+    <li><span>Sales</span><span>21%</span></li>
+    <li><span>Information Technology</span><span>12%</span></li>
+  </ul>
+</section>
+
+<section id="pageviews">
+  <h2>Page views by page</h2>
+  <table>
+    <thead><tr><th>Page</th><th>Page views</th><th>Unique visitors</th><th>Last updated</th></tr></thead>
+    <tbody>
+      <tr><td>Overview page</td><td>5,001</td><td>1,540</td><td>—</td></tr>
+      <tr><td>Life page</td><td>1,220</td><td>480</td><td>Nov 12, 2026</td></tr>
+      <tr><td>Jobs page</td><td>908</td><td>301</td><td>—</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="posts">
+  <h2>Post performance</h2>
+  <table>
+    <thead><tr><th>Post title</th><th>Post type</th><th>Date</th><th>Impressions</th>
+      <th>Reactions</th><th>Comments</th><th>Reposts</th><th>Engagement rate</th></tr></thead>
+    <tbody>
+      <tr><td><a href="/feed/update/urn:li:activity:7100000000000000001/">Launch announcement</a></td>
+          <td>Image</td><td>11/20/2026</td><td>12,004</td><td>410</td><td>33</td><td>12</td><td>4.21%</td></tr>
+      <tr><td><a href="/feed/update/urn:li:activity:7100000000000000002/">Product demo video</a></td>
+          <td>Video</td><td>11/14/2026</td><td>8,330</td><td>260</td><td>18</td><td>6</td><td>3.55%</td></tr>
+    </tbody>
+  </table>
+  <button>Show more</button>
+</section>
+
+<section id="empty">
+  <h2>Competitors</h2>
+  <p>No data available for the selected date range</p>
+</section>
+</body></html>

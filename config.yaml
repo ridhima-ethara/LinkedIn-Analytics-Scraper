@@ -1,0 +1,86 @@
+# LinkedIn Page Analytics Extractor — configuration
+# Every value can be overridden on the CLI (see: python run_analytics.py --help)
+
+company:
+  # The admin analytics URL (or plain company URL) of the page to extract.
+  url: "https://www.linkedin.com/company/99269371/admin/analytics/updates/"
+
+# Section URLs are derived from company.url automatically and refined by reading
+# LinkedIn's own analytics navigation at runtime. Override only if LinkedIn moves a tab.
+urls:
+  overview: null            # e.g. "{base}/admin/analytics/"
+  content: null             # e.g. "{base}/admin/analytics/updates/"
+  visitors: null
+  followers: null
+  search_appearances: null
+  life_page: null
+  # Candidate URL templates for a single post's analytics page ({urn} is substituted)
+  # Verified against the live admin UI (Nov 2026). The row's own link in the
+  # content table is tried first; these are fallbacks.
+  post_summary_templates:
+    - "{base}/admin/post-analytics/{urn}/"
+    - "https://www.linkedin.com/analytics/post-summary/{urn}/"
+    - "{base}/admin/analytics/post-summary/{urn}/"
+    - "https://www.linkedin.com/feed/update/{urn}/"
+
+browser:
+  engine: firefox           # Playwright Firefox only. Chromium/Selenium are not used.
+  headless: true
+  slow_mo_ms: 0
+  viewport:
+    width: 1600
+    height: 1200
+  locale: "en-US"
+  timezone: "UTC"
+  nav_timeout_ms: 60000
+  action_timeout_ms: 20000
+  # Firefox prefs applied at launch (keeps the UI in English so labels match)
+  accept_language: "en-US,en;q=0.9"
+
+session:
+  storage_state_path: "secrets/linkedin_state.json"
+  encrypt: true
+  key_env: "LI_SESSION_KEY"
+  key_file: "secrets/session.key"
+  # Max seconds login.py waits for a human to finish login + MFA
+  manual_login_timeout_s: 420
+
+extraction:
+  # Rolling presets : past_7_days | past_28_days | past_90_days | past_365_days
+  # Calendar year   : year_2026            (Jan 1 -> Dec 31, clamped to today)
+  # Explicit window : custom               (+ custom_start / custom_end below)
+  #                   or "2026-01-01..2026-11-25"
+  # No change       : keep_default
+  # NOTE: LinkedIn Page analytics supports at most a 365-day window, and the
+  # window actually applied is always read back from the UI and verified.
+  date_range: "year_2026"
+  custom_start: ""          # YYYY-MM-DD, used when date_range: custom
+  custom_end: ""            # YYYY-MM-DD, blank = today
+  # Only open individual post analytics for posts published inside the window
+  post_date_filter: true
+  max_posts: 10             # how many posts to open for individual post analytics
+  post_detail: true
+  expand_show_more_rounds: 8
+  settle_ms: 2500           # extra wait after network idle for chart/table hydration
+  scroll_passes: 6
+  retries: 3
+  retry_backoff_s: 4
+  sections:                 # which sections to run
+    - overview
+    - content
+    - visitors
+    - life_page
+    - followers
+    - search_appearances
+    - posts
+
+output:
+  dir: "output"
+  prefix: "linkedin_analytics"
+  save_screenshots: true
+  save_page_text: true
+  save_raw_network: true    # passively record the page's own analytics XHR payloads
+
+logging:
+  level: "INFO"
+  dir: "logs"
